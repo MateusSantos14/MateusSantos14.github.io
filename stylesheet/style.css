@@ -1,8 +1,143 @@
-#ButtonForm
-{
-    background-color: rgba(23,162,184,0.95);
+body {
+    font-family: 'Roboto', sans-serif;
+    
+
 }
-#ButtonForm:hover
-{
-    background-color: rgba(23,162,184,1);
+
+.row {
+    margin:0;
 }
+
+.container{
+    padding: 70px 0;
+}
+
+p, li {
+    color:#f8f5ef ;
+    font-size:15px;
+}
+
+/* Barra de navegação */
+
+header, .navbar {
+    background-color:#004aad;
+    
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width:150px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color:#fff
+}
+
+#navbar-links a {
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+   
+}
+
+.container-fluid{
+    padding:0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item
+{
+height: 90vh;
+}
+
+#mainSlider .carousel-caption
+{
+    top:30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size:50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size:22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+#about-area{
+    background-color: #F9F9F9;
+}
+
+.main-title{
+    color: #004aad;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after
+{
+    content:"" ;
+    border-top: 2px solid #004aad;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title
+{
+    font-size: 17px;
+    color: #01060c;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-services
+{
+    position:absolute;
+		left:5%;
+		top:50%;
+		margin-left:0%;
+		margin-top:-50%;
+        
+}
+
+#about-services2
+{
+    position:absolute;
+		left:5%;
+		top:42%;
+		margin-left:0%;
+		margin-top:-50%;
+        
+}
+
+#about-text
+{
+    font-size: 17px;
+    color: #01060c;
+    
+    
+}
+
+#about-text1
+{
+    font-size: 17px;
+    color: #01060c;
+
+}
+
+
